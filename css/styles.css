@@ -10028,7 +10028,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 #mainNav {
@@ -10056,8 +10056,8 @@ hr.light {
 }
 @media (min-width: 992px) {
   #mainNav {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    box-shadow: none;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -10096,7 +10096,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/pexels-anna-shvets-3683056.jpg");
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10164,3 +10165,29 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+i {
+  transition: all 1s;
+  cursor: pointer;
+}
+
+i:hover {
+  transform: scale(1.5);
+}
+
+#banner {
+  width: 75%;
+  height: auto;
+}
+/*
+.banner-card {
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  transition: all 1s;
+  cursor: pointer;
+  margin: 10px 50px;
+}
+
+.banner-card:hover {
+  transform: scale(1.1);
+} */
